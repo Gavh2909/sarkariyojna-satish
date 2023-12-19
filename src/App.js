@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
       <div className="head">
         <img src={profile} onClick={() => setClick("about")} />
-        <h1 onClick={() => setClick("home")}>शेतकरी योजना </h1>
+        <h1 onClick={() => setClick("home")}>🌾शेतकरी योजना🌾 </h1>
       </div>
       {click === "home" && <Schemes />}
       {click === "about" && <About />}

@@ -19,16 +19,17 @@ const Schemes = () => {
       {Data.schemes.map((scheme) => {
         return (
           <div className="scheme">
-            <h2>
-              Yojna {scheme.id}: {scheme.heading}
-            </h2>
-            <p>How To Apply?</p>
+            <h3>
+              योजना  {scheme.id}: {scheme.heading}
+            </h3 >
+            
+            <p>👉खालीलप्रमाणे अर्ज करा.. </p>
             {scheme.steps.map((step) => {
               return <p>{step}</p>;
             })}
             <p>Apply Before : {scheme.lastdate}</p>
             <YouTube videoId={scheme.yLink} opts={opts} onReady={onReady} />
-            Apply Link : <a href={scheme.link}>{scheme.link}</a>
+            Apply Link : <a href={scheme.link}>येथे क्लिक करा </a>
           </div>
         );
       })}

@@ -39,3 +39,6 @@
     height: 80px;
     border-radius: 50px;
 }
+.App .head h1{
+    color: rgb(231, 209, 11);
+}

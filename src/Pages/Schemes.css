@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #000;
     background-color: #6d6875;
 }
         
@@ -24,15 +23,18 @@
     row-gap: 10px;
 }
 .App .head,
-.my-profile {
+.App .my-profile {
     display: flex;
     /* width: 100vw; */
+    height: 10vh;
     align-items: center;
     justify-content: space-around;
     padding: 20px 0;
-    background-color: rgb(99, 140, 176);
+    background-color: rgb(37, 64, 87);
 }
-
+.App .my-profile a {
+    color: #b98fb0;
+}
 .App .head img {
     height: 80px;
     border-radius: 50px;

@@ -1,0 +1,25 @@
+.schemes-home {
+    min-height: 100vh;
+    height: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b42323;
+    border: 1px solid #000;
+}
+
+.schemes-home .scheme {
+    width: 80%;
+    min-height: 55vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #646d91;
+    margin: 20px 0;
+    border-radius: 13px;
+    padding: 15px;
+    row-gap: 10px;
+}

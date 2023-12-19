@@ -1,0 +1,28 @@
+{
+    "schemes":[
+    {
+        "id":1,
+        "heading":"How to Apply For Mahadbt",
+        "steps":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor minima fuga blanditiis expedita illo odio incidunt sitquaerat, ex, enim ea odit ipsa.",
+        "yLink":"1fTWIJxRr4Y",
+        "link":"www.mahadbt.com",
+        "lastdate":"23-12-2023"
+    },
+    {
+        "id":2,
+        "heading":"How to Apply For Scholarshi[",
+        "steps":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor minima fuga blanditiis expedita illo odio incidunt sitquaerat, ex, enim ea odit ipsa.",
+        "yLink":"1fTWIJxRr4Y",
+        "link":"www.mahadbt.com",
+        "lastdate":"23-12-2023"
+    },
+    {
+        "id":3,
+        "heading":"How to Apply For Irrigatiom",
+        "steps":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor minima fuga blanditiis expedita illo odio incidunt sitquaerat, ex, enim ea odit ipsa.",
+        "yLink":"1fTWIJxRr4Y",
+        "link":"www.mahadbt.com",
+        "lastdate":"23-12-2023"
+    }
+]
+}

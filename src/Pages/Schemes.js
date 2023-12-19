@@ -23,7 +23,9 @@ const Schemes = () => {
               Yojna {scheme.id}: {scheme.heading}
             </h2>
             <p>How To Apply?</p>
-            <p>{scheme.steps}</p>
+            {scheme.steps.map((step) => {
+              return <p>{step}</p>;
+            })}
             <p>Apply Before : {scheme.lastdate}</p>
             <YouTube videoId={scheme.yLink} opts={opts} onReady={onReady} />
             Apply Link : <a href={scheme.link}>{scheme.link}</a>

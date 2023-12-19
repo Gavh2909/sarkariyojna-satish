@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/shetkariyojna-satish/static/css/main.705d4655.css",
+    "main.css": "/shetkariyojna-satish/static/css/main.ea221916.css",
     "main.js": "/shetkariyojna-satish/static/js/main.f47af716.js",
     "static/media/profile.jpg": "/shetkariyojna-satish/static/media/profile.0e8f7a550018df1efb69.jpg",
     "index.html": "/shetkariyojna-satish/index.html",
-    "main.705d4655.css.map": "/shetkariyojna-satish/static/css/main.705d4655.css.map",
+    "main.ea221916.css.map": "/shetkariyojna-satish/static/css/main.ea221916.css.map",
     "main.f47af716.js.map": "/shetkariyojna-satish/static/js/main.f47af716.js.map"
   },
   "entrypoints": [
-    "static/css/main.705d4655.css",
+    "static/css/main.ea221916.css",
     "static/js/main.f47af716.js"
   ]
 }

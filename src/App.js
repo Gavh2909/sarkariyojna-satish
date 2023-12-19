@@ -1,19 +1,23 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schemes from "./Pages/Schemes";
+import "./Pages/Schemes.css";
+import profile from "./profile.png";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route index Component={<Schemes />} />
-          {/* <Route path="/about" Component={<h1>This is about Page</h1>} /> */}
-        </Routes>
-      </BrowserRouter>
+      <div className="head">
+        <img src={profile} />
+        <h1>All Schemes</h1>
+      </div>
       <Schemes />
+      <div className="my-profile">
+        <h1>
+          This website is created by <a href="/about">Satish Gavhane</a>
+        </h1>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

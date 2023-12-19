@@ -1,7 +1,6 @@
 import Data from "../Data.json";
 import "./Schemes.css";
 import YouTube from "react-youtube";
-
 const opts = {
   height: "100%",
   width: "100%",
@@ -17,7 +16,6 @@ const onReady = (event) => {
 const Schemes = () => {
   return (
     <div className="schemes-home">
-      <h1>All Schemes</h1>
       {Data.schemes.map((scheme) => {
         return (
           <div className="scheme">
